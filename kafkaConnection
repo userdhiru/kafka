@@ -1,0 +1,8 @@
+module.exports = {
+clientId: 'nodeJS-medium-kafka-example',
+kafka_topic: 'knative-demo-topic',
+brokers: ['my-cluster-kafka-bootstrap.kafka'],
+connectionTimeout: 3000,
+authenticationTimeout: 1000,
+reauthenticationThreshold: 10000,
+};
